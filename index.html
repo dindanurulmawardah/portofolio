@@ -7,45 +7,48 @@
   <title>Portofolio</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-light">
   
 <!-- awal navbar -->
-<nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
   <div class="container-lg">
     <a class="navbar-brand text-danger fw-bold fs-4" href="#">Dinda</a>
-    <div class="dropdown">
-  <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-   <i class="fas fa-bars"></i>
-  </button>
-  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#home">Home</a></li>
-    <li><a class="dropdown-item" href="#profile">Profile</a></li>
-    <li><a class="dropdown-item" href="#service">Service</a></li>
-    <li><a class="dropdown-item" href="#portofolio">Portofolio</a></li>
-    <li><a class="dropdown-item" href="#contact">Contact</a></li>
-  </ul>
-</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="dropdown-item" href="#home">Home</a>
+        <a class="dropdown-item" href="#profile">Profile</a>
+        <a class="dropdown-item" href="#service">Service</a>
+        <a class="dropdown-item" href="#portofolio">Portofolio</a>
+        <a class="dropdown-item" href="#contact">Contact</a>
+      </div>
+    </div>
   </div>
 </nav>
 <!-- akhir navbar -->
 
 <!-- awal halaman home -->
-<section class="home py-5" id="home">
+<section class="home py-5 bg-light" id="home">
   <div class="container-lg">
     <div class="row min-vh-100 align-items-center align-content-center">
       <div class="col-md-6 mt-5 mt-md-0">
         <div class="col-img text-center">
-          <img src="img/me.jpg" class="rounded-circle mw-100" width="400px">
+          <img src="img/aku.jpg" class="rounded-circle img-thumbnail mw-100" width="400px">
         </div>
       </div>
       <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-        <div class="home-text ">
-          <p class="text-muted mb-1">Hello I'm</p>
-          <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
-          <h2 class="fs-4">Dinda Nurul Mawardah</h2>
-          <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt commodi consequatur accusantium, tenetur nam, magni temporibus neque quia nemo error saepe maiores tempora laudantium corrupti non quae! Quasi, saepe?</p>
-          <a href="" class="btn btn-danger px-3 mt-3">My Work</a>
+        <div class="name">
+        
+          <p>Hello</p>
+          <h1 class="mb-3">I'm <font color="#fa3939"> Dinda </font> Nurul Mawardah</h1>
+          <p class="details">Learn Everything and everywhere</p>
+          <a href="/doc/CV-Dinda Nurul Mawardah.pdf" download class="cv-btn">Download CV</a>
         </div>
       </div>
     </div>
@@ -54,71 +57,35 @@
 <!-- akhir halaman home -->
 
 <!-- awal halaman profile -->
-<section class="profile py-5" id="profile">
+<section class="profile py-5 bg-white" id="profile">
   <div class="container-lg py-4">
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="section-title text-center">
-          <h2 class="fw-blod mb-5">Profile</h2>
+          <h2 class="fw-blod mb-5">About Me</h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
         <div class="about-text">
-          <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
-          <p class="text-muted ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae saepe at nam illum earum quisquam quod, ipsum nihil inventore est tempore error ad! Nesciunt repellat dignissimos ratione modi porro doloribus.</p>
-        </div>
-        <div class="row text-center text-uppercase my-3">
-          <div class="col-sm-4">
-            <div class="fact-info">
-              <h4 class="fs-1 fw-bold">100</h4>
-              <p class="text-muted">Project Complate</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="fact-info">
-              <h4 class="fs-1 fw-bold">100</h4>
-              <p  class="text-muted">Project Complate</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="fact-info">
-              <h4 class="fs-1 fw-bold">100</h4>
-              <p class="text-muted">Project Complate</p>
-            </div>
-          </div>
+          <h3 class="fs-4 mb-3">Hai, kamu bisa memanggil saya <font color="fa3939">Dinda</font> </h3>
+          <p class="text-muted ">Sebagai lulusan Teknik Informatika dari Politeknik Negeri Bengkalis, saya suka mempelajari hal-hal baru, terutama tentang bahasa pemrograman. Bahasa pemrograman membuat saya sadar bahwa saya ingin membantu orang dengan pengetahuan yang saya miliki.</p>
         </div>
         <div class="row">
           <div class="col-lg-12 d-flex align-content-center">
-            <a href="#" class="btn btn-danger me-5">Download CV</a>
             <div class="social-link">
-              <a href="" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
-              <a href="" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
-              <a href="" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
-              <a href="" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/channel/UCEVzlYN-8j0Z6ggDMqam29g" class="text-dark me-2"><i class="fab fa-youtube"></i></a>
+              <a href="https://twitter.com/dinda_nu" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/dindanurulmawardah/" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com/in/dinda-nurul-m-40062593/" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 mt-5 mt-md-0">
-        <div class="skil-items mb-4">
-          <h3 class="fs-6">HTML</h3>
-          <div class="progress" style="height: 5px;">
-  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-        </div>
-        <div class="skil-items mb-4">
-          <h3 class="fs-6">CSS</h3>
-          <div class="progress" style="height: 5px;">
-  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-        </div>
-        <div class="skil-items mb-4">
-          <h3 class="fs-6">Javascript</h3>
-          <div class="progress" style="height: 5px;">
-  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
+      <div class="col-md-6 mt-5 mt-md-0 ">
+        <div class="skil-items mb-4 text-center">
+          <img src="/img/me.jpg" width="400px" class="img-thumbnail rounded-circle mw-50 " alt="">
         </div>
       </div>
     </div>
@@ -140,19 +107,19 @@
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="service-item shadow-sm p-4 rounded bg-white">
           <div class="icon my-3 text-danger fs-2">
-            <i class="fas fa-code"></i>
+            <i class="fa fa-lightbulb"></i>
           </div>
-          <h3 class="fs-5 py-2">Web Development</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, qui?</p>
+          <h3 class="fs-5 py-2">Mempelajari Hal baru</h3>
+          <p class="text-muted">Tentang Web Development</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="service-item shadow-sm p-4 rounded bg-white">
           <div class="icon my-3 text-danger fs-2">
-            <i class="fas fa-lightbulb"></i>
+            <i class="fas fa-chalkboard-teacher"></i>
           </div>
-          <h3 class="fs-5 py-2">Web Development</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, qui?</p>
+          <h3 class="fs-5 py-2">Mengikuti Pelatihan Online</h3>
+          <p class="text-muted">Seperti Digitalent Scholarship</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mb-4">
@@ -161,7 +128,7 @@
             <i class="fas fa-code"></i>
           </div>
           <h3 class="fs-5 py-2">Web Development</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, qui?</p>
+          <p class="text-muted">Membuat aplikasi sederhana</p>
         </div>
       </div>
     </div>
@@ -170,7 +137,7 @@
 <!-- akhir kegiatan saya -->
 
 <!-- portofolio -->
-<section class="portofolio py-5" id="portofolio">
+<section class="portofolio py-5 bg-white" id="portofolio">
   <div class="container-lg py-4">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -182,9 +149,9 @@
     <div class="row">
       <div class="col-md-6 col-lg-4">
         <div class="portofolio-item">
-          <img src="img/artikel.jpg" class="w-100" alt="">
-          <h3 class="text-capitalize fs-5 my-2">team section</h3>
-          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+          <img src="img/p1.PNG" class="w-100" alt="">
+          <h3 class="text-capitalize fs-5 my-2">Tugas Akhir</h3>
+          <p class="mb-4"><a href="https://kueberkah.000webhostapp.com/" target="_blank" class="text-danger text-decoration-none">Live Demo</a></p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -201,14 +168,6 @@
           <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
         </div>
       </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portofolio-item">
-          <img src="img/artikel.jpg" class="w-100" alt="">
-          <h3 class="text-capitalize fs-5 my-2">team section</h3>
-          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -228,40 +187,25 @@
 </section>
 <!-- freelance -->
 
-<!-- testimonial -->
-<section class="testimonial" id="testimonial">
-  <div class="container-lg py-5">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-blod mb-5">Lates Work</h2>
-        </div>
-      </div>
+<div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="text-muted">&copy; 2022 Dinda Nurul Mawardah</span>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-xl-7">
-        <div class="testi-item bg-white shadow-sm rounded p-5">
-          <div class="testi-author d-flex align-items-center">
-            <img src="img/sertifikasi.jpg" class="img-thumbnail rounded-circle w-50" alt="">
-            <div class="author ms-3">
-              <h3 class="fs-6 mb-1">Taj Rabhi</h3>
-              <p class="text-muted text-capitalize">seo manager</p>
-            </div>
-          </div>
-          <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
-          <div class="rating text-danger ">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- testimonial -->
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/channel/UCEVzlYN-8j0Z6ggDMqam29g"><i class="fab fa-youtube"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://twitter.com/dinda_nu"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
 
 <!-- contact -->
 <section class="contact" id="contact">

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-nav a{
+  color: black;
+}
+
+.navbar-nav a:hover{
+  background-color: #b93b3b;
+  color: white !important;
+  border-radius: 5px;
+  transform: all ease 0.3s;
+}
+
+.name{
+  font-family: Poppins, sans-serif;
+  width: 100%;
+}
+.name p:nth-child(1),.name .details{
+  color:#6c707c;
+  font-size: 16px;
+}
+.name h1{
+  font-family:Poppins;
+  font-size: 40px;
+  margin:0px;
+  letter-spacing: 3px;
+  color:#292929;
+}
+
+.cv-btn{
+  width:200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa3939;
+  color:#FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cv-btn:hover{
+  background-color: #131313;
+  transition: all ease 0.5s;
+}
+
+footer ul li{
+  color: #122121;
+}
+
+footer ul li:hover{
+  background-color: #ff5c5c ;
+  width: auto;
+  border-radius: 10px;
+}
+
+#about{
+  width:100%;
+  height: 100vh;
+  background-color:#161616;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5% 0px 5%;
+  position: relative;
+}
+.about-text{
+  font-family: calibri;
+  width: 50%;
+}
+.about-text h1{
+  font-size: 5rem;
+  color:#17d1ac;
+}
+.about-text h2{
+  font-size: 3rem;
+  color:#FFFFFF;
+  font-weight: 400;
+}
+.about-text h1,h2{
+  margin: 0px;
+  padding: 0px;
+}
+.about-text p{
+  font-size: 1.2rem;
+  color:rgba(255,255,255,0.90);
+  
+}
+.about-text button{
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color:#17d1ac;
+}
+.about-text button:hover{
+  background-color: #FFFFFF;
+  transition: all ease 0.3s;
+}
